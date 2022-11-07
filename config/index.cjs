@@ -27,13 +27,9 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '09-03',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*阴历生日', name: '宝贝', year: '2001', date: '07-16',
-        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '阳历生日', name: '宝贝', year: '2001', date: '09-03',
+          type: '生日', name: '宝贝', year: '2001', date: '09-03',
         },
         {
           type: '节日', name: '恋爱纪念日', year: '2022', date: '04-30',
